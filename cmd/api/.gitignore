@@ -1,0 +1,16 @@
+cat > .gitignore << 'EOF'
+# binaries
+*.exe
+*.out
+ai-code-review
+
+# env / secrets
+.env
+
+# OS files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+EOF
